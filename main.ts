@@ -1,7 +1,3 @@
-function setCharacter (char: string) {
-    string = char
-    basic.showString(char)
-}
 input.onGesture(Gesture.TiltRight, function () {
     setCharacter("D")
 })
@@ -18,6 +14,10 @@ input.onButtonPressed(Button.B, function () {
     string = ""
     basic.showIcon(IconNames.Diamond)
 })
+function setCharacter (char: string) {
+    string = char
+    basic.showString(char)
+}
 input.onGesture(Gesture.ScreenDown, function () {
     setCharacter("B")
 })
