@@ -26,7 +26,6 @@ input.onButtonPressed(Button.A, function () {
 })
 let string = ""
 radio.setGroup(20)
-radio.setGroup(1)
 string = ""
 basic.showIcon(IconNames.Diamond)
 radio.sendString("START")
